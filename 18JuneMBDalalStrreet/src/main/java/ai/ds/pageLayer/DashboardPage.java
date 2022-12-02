@@ -13,9 +13,6 @@ public class DashboardPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	
-	
-	
 	//--------- Obj repo ---------------------
 	@FindBy(xpath="//input[@class='form-control']")
 	private WebElement search_txtbox;
